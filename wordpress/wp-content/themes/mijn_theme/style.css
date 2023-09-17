@@ -5,21 +5,36 @@ Description: Dit thema laat op de homepage een overzicht van posts zien met een 
 Version: 2.0
 */
 body {
-    background-image: url('foto/achtergrondgames-blur.png');
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(190, 190, 190);
+    background-image: url(foto/Screenshot_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: Georgia;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(92, 204, 92);
 }
 
 header {
+    margin-top: 25px;
+    padding-bottom: 50px;
+    background-color: white;
     display: flex;
-    border-style: solid;
-    background-color: rgb(83, 152, 255);
-    display: flex;
-    justify-content: center;
+    text-decoration: none;
 }
 
 nav {
-    margin-left: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    width: 100%;
     margin-top: auto;
     margin-bottom: auto;
+    color: rgb(241, 241, 241);
 }
 
 ul {
@@ -31,34 +46,41 @@ li {
     display: flex;
     float: left;
     margin-right: 10px;
+    font-size: 30px;
 }
 
-main {
-    border-style: solid;
-    background-color: rgba(0, 0, 0, 0.5);
-}
+main {}
 
 article {
-    border-style: solid;
-    background-color: rgb(144, 177, 226);
+    padding-bottom: 1%;
 
 }
+
+article a {
+    color: black;
+}
+
+.page {
+    background-color: rgb(241, 241, 241);
+
+}
+
+h1 {}
 
 h2 {
     display: flex;
     text-align: center;
     justify-content: center;
+    color: black;
+
 }
 
 p {
     display: block;
     text-align: center;
+    font-size: x-large;
 }
 
-#post-6 {
-    background-color: rgb(207, 207, 207);
-}
-
-#post-8 {
-    background-color: white;
+.post {
+    background-color: rgb(241, 241, 241);
 }
